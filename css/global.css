@@ -1,0 +1,24 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    background-color: #101820FF;
+    color:#FEE715FF;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.header{
+    margin: 20px auto;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+.description{
+    font-size: 10px;
+}

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/popUp.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script defer src="js/form.js"></script>
+    <title>Quizz</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Witaj w Quizzie!</h1>
+        <h4>Temat: HTML/CSS/JS</h2>
+    </header>
+    <main>
+        <p class="description">*Zaznacz jedną prawidłową odpowiedź</p>
+        <p class="description">*Aby wygrać, wszystkie odpowiedzi muszą być prawidłowe</p>
+        <form class="js-form">
+            <h4>Pytanie 1:</h4>
+            <fieldset class="form__fieldset">
+                <legend class=" form__legend js-question">
+                    Jaką funkcję pełni znacznik 'div' w HTLM:
+                </legend>
+                <ol type="A">
+                    <div class="form__label"> <li> 
+                        <label for="answer-1">
+                            Jest kontenerem <input class="js-answer" type="radio" name="question-1" id="answer-1" value="true">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label for="answer-2">
+                            Służy do tworzenia paragrafu <input class="js-answer" type="radio" name="question-1" id="answer-2"
+                                value="false">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label for="answer-3">
+                            Służy do tworzenia nagłówka <input class="js-answer" type="radio" name="question-1" id="answer-3"
+                                value="false">
+                        </label>
+                    </li> </div>
+                </ol>
+            </fieldset>
+            <h4>Pytanie 2:</h4>
+            <fieldset class="form__fieldset">
+                <legend class=" form__legend js-question">
+                    Jaką funkcję pełni znacznik 'p' w HTLM:
+                </legend>
+                <ol type="A">
+                    <div class="form__label"> <li> 
+                        <label>
+                            Jest kontenerem <input class="js-answer" type="radio" name="question-2" id="answer-4" value="false">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Służy do tworzenia nagłówka <input class="js-answer" type="radio" name="question-2" id="answer-5"
+                                value="false">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Służy do tworzenia paragrafu <input class="js-answer" type="radio" name="question-2" id="answer-6"
+                                value="true">
+                        </label>
+                    </li> </div>
+                </ol>
+            </fieldset>
+            <h4>Pytanie 3:</h4>
+            <fieldset class="form__fieldset">
+                <legend class=" form__legend js-question">
+                    Jak stworzyć cień dla elementu border?
+                </legend>
+                <ol type="A">
+                    <div class="form__label"> <li> 
+                        <label>
+                            Border-shadow <input class="js-answer" type="radio" name="question-3" id="answer-7" value="false">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Box-shadow<input class="js-answer" type="radio" name="question-3" id="answer-8" value="true">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Border-style <input class="js-answer" type="radio" name="question-3" id="answer-9" value="false">
+                        </label>
+                    </li> </div>
+                </ol>
+            </fieldset>
+            <h4>Pytanie 4:</h4>
+            <fieldset class="form__fieldset">
+                <legend class=" form__legend js-question">
+                    Jak zaokrąglić brzegi elementu border?
+                </legend>
+                <ol type="A">
+                    <div class="form__label"> <li> 
+                        <label>
+                            Border-style <input class="js-answer" type="radio" name="question-4" id="answer-10" value="false">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Box-style<input class="js-answer" type="radio" name="question-4" id="answer-11" value="false">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Border-radius <input class="js-answer" type="radio" name="question-4" id="answer-12" value="true">
+                        </label>
+                    </li> </div>
+                </ol>
+            </fieldset>
+            <h4>Pytanie 5:</h4>
+            <fieldset class="form__fieldset">
+                <legend class=" form__legend js-question">
+                    Do czego służy padding?
+                </legend>
+                <ol type="A">
+                    <div class="form__label"> <li> 
+                        <label>
+                            Do określenia marginesu zewnętrznego<input class="js-answer" type="radio" name="question-5" id="answer-13"
+                                value="false">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Do określenia wysokości elementu<input class="js-answer" type="radio" name="question-5" id="answer-14"
+                                value="false">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Do określenia marginesu wewnętrznego <input class="js-answer" type="radio" name="question-5" id="answer-15"
+                                value="true">
+                        </label>
+                    </li> </div>
+                </ol>
+            </fieldset>
+            <h4>Pytanie 6:</h4>
+            <fieldset class="form__fieldset">
+                <legend class=" form__legend js-question">
+                    Do czego służy margin?
+                </legend>
+                <ol type="A">
+                    <div class="form__label"> <li> 
+                        <label>
+                            Do określenia marginesu zewnętrznego<input class="js-answer" type="radio" name="question-6" id="answer-16"
+                                value="true">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Do określenia wysokości elementu<input class="js-answer" type="radio" name="question-6" id="answer-17"
+                                value="false">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Do określenia marginesu wewnętrznego <input class="js-answer" type="radio" name="question-6" id="answer-18"
+                                value="false">
+                        </label>
+                    </li> </div>
+                </ol>
+            </fieldset>
+            <h4>Pytanie 7:</h4>
+            <fieldset class="form__fieldset">
+                <legend class=" form__legend js-question">
+                    Do czego służy "let" w JS?
+                </legend>
+                <ol type="A">
+                    <div class="form__label"> <li> 
+                        <label>
+                            Do deklaracji liczby<input class="js-answer" type="radio" name="question-7" id="answer-19" value="false">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Po prostu musi być<input class="js-answer" type="radio" name="question-7" id="answer-20" value="false">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Do deklaracji zmiennej <input class="js-answer" type="radio" name="question-7" id="answer-21" value="true">
+                        </label>
+                    </li> </div>
+                </ol>
+            </fieldset>
+
+            <h4>Pytanie 8:</h4>
+            <fieldset class="form__fieldset">
+                <legend class=" form__legend js-question">
+                    Do czego służy symbol '===' w JS?
+                </legend>
+                <ol type="A">
+                    <div class="form__label"> <li> 
+                        <label>
+                            Do sprawdzenia czy dwie wartości są nie równe<input class="js-answer" type="radio" name="question-9"
+                                id="answer-25" value="false">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Do sprawdzenie czy dwie wartości są równe<input class="js-answer" type="radio" name="question-9"
+                                id="answer-26" value="true">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Obie odpowiedzi są prawidłowe <input class="js-answer" type="radio" name="question-9" id="answer-27"
+                                value="false">
+                        </label>
+                    </li> </div>
+                </ol>
+            </fieldset>
+            <h4>Pytanie 9:</h4>
+            <fieldset class="form__fieldset">
+                <legend class=" form__legend js-question">
+                    Czym jest 'document.querySelector()'?
+                </legend>
+                <ol type="A">
+                    <div class="form__label"> <li> 
+                        <label>
+                            Jest dokumentem<input class="js-answer" type="radio" name="question-10" id="answer-28" value="false">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Jest funkcją<input class="js-answer" type="radio" name="question-10" id="answer-29" value="true">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Jest ciągiem liczb <input class="js-answer" type="radio" name="question-10" id="answer-30" value="false">
+                        </label>
+                    </li> </div>
+                </ol>
+            </fieldset>
+            <h4>Pytanie 10:</h4>
+            <fieldset class="form__fieldset">
+                <legend class=" form__legend js-question">
+                    Co spowoduje funkcja alert('Hello World');?
+                </legend>
+                <ol type="A">
+                    <div class="form__label"> <li> 
+                        <label>
+                            Pogrubienie czcionki po kliknięciu przycisku<input class="js-answer" type="radio" name="question-11"
+                                id="answer-31" value="false">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Zmianę nagłówka na 'Hello World'<input class="js-answer" type="radio" name="question-11" id="answer-32"
+                                value="false">
+                        </label>
+                    </li> </div>
+                    <div class="form__label"> <li> 
+                        <label>
+                            Pojawienie się dodatkowego okna z napisem 'Hello World'<input class="js-answer" type="radio"
+                                name="question-11" id="answer-33" value="true">
+                        </label>
+                    </li> </div>
+                </ol>
+            </fieldset>
+
+            <button class="form__button js-popUpOpen" type="submit">Sprawdź Wynik!</button>
+            <button class="form__button" type="reset">Zacznij od nowa</button>
+        </form>
+        <div class="popUp js-popUp">
+            <div class="popUp__head">
+            <div class="popUp__title">Twój Wynik:</div>
+            <button class="popUp__close js-popUpClose">&times;</button>
+        </div>
+        <div class="popUp__body js-popUpBody">
+            
+        </div>
+    </div>
+    </main>
+    <footer class="footer"> © Semir Al Harbi - strona przygotowana w ramach kursu <a class="footer__link"
+        target="_blank" title="Oficjalna strona Kursu YouCode." rel="noreferrer noopener"
+        href="https://youcode.pl/">YouCode</a>
+    (otwiera się w nowej karcie)</footer>
+    <div class="popUp__background js-popUpBackground"></div>
+</body>
+
+</html>

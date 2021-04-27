@@ -1,0 +1,19 @@
+footer{
+    border: 2px solid #FEE715FF;
+    border-radius: 20px;
+    padding:20px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.footer__link{
+    border-bottom: 1px whitesmoke;
+    color:whitesmoke;
+}
+.footer__link:hover{
+    font-weight: bold;
+    
+}
+.footer__link:visited{
+    color: whitesmoke;
+}
