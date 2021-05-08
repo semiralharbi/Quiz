@@ -1,0 +1,15 @@
+.header__button {
+    background-color: rgba(198, 214, 243, 0.822);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.header__button:hover {
+    background-color: rgba(158, 188, 243, 0.822);
+}
+
+.header__title {
+    text-align: center;
+    padding: 30px;
+    border-bottom: 1px solid;
+}

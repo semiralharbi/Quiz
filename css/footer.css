@@ -1,0 +1,12 @@
+.footer {
+    line-height: 2;
+    color: black;
+    max-width: 1000px;
+    width: 100%;
+    background-color: rgba(198, 214, 243, 0.822);
+    border-radius: 20px;
+    padding: 15px 0px;
+    margin-top: 15px;
+    text-align: center;
+    box-shadow: 4px 4px 8px black;
+}

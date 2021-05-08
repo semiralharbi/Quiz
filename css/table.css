@@ -1,0 +1,33 @@
+.table__cursor:hover {
+    background-color: rgba(158, 188, 243, 0.822);
+}
+
+.table__cell {
+    background-color: rgba(165, 193, 247, 0.822);
+    border: 1px solid rgba(0, 48, 136, 0.822);
+    text-align: center;
+    vertical-align: center;
+    padding: 10px;
+    color: black;
+}
+
+.caption {
+    caption-side: bottom;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+.table__cell--color {
+    background-color: rgba(198, 214, 243, 0.89);
+}
+.table__cell--color:hover{
+    background-color: ivory;
+}
+
+.table__container {
+    overflow-x: auto;
+    border-collapse: collapse;
+    box-shadow: 4px 4px 10px black;
+}
