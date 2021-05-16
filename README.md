@@ -16,4 +16,4 @@ Javascript used to switch the page into night mode when its on day mode and into
 also changing the name of the button after you click on it.
 
 ## How to use
-Click on the button "Przełącz na tryb nocny" at the left on the top of the page to switch into night mode. After you click on button you will notice that the name has changed into "Przełącz na tryb dzienny".
+Click on the button "Przełącz na tryb nocny" at the left on the top of the page to switch into night mode. After clicking you will notice that the name of the button has changed into "Przełącz na tryb dzienny".
